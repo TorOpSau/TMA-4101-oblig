@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Konstantverdier
-V_inn_maalt = 7.7  # Spenningen fra batteriet (volt)
+V_inn_maalt = 7.77  # Spenningen fra batteriet (volt)
 R_maalt = 0.999*10**6  # Motstanden (ohm)
 C = 100e-6  # Kapasiteten til kondensatoren (farad)
 tau_maalt = R_maalt * C  # Tidskonstanten ved ideell tilpasning av måling
